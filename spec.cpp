@@ -18,8 +18,8 @@ int main(int argc, char* argv[]) {
   char* recipe_name = argv[1];
 
   input_file(recipe_data, recipe_name);
-  for(int i=0; i<recipe_data.size(); i++) {
-    cout << recipe_data[i] << endl;
+  for(int id=0; id<recipe_data.size(); id++) {
+    cout << id << ": " << recipe_data[id] << endl;
   }
   return 0;
 }
