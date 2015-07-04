@@ -18,3 +18,12 @@ spec3の実行方法
   例)./a.out recipe_data.txt
 
 3. txtデータが表示されます。
+
+spec4の実行方法
+1. spec.cppをコンパイルしてください。
+  例)c++ spec1.cpp
+
+2. 実行ファイルが生成されると思うので、読み込みたいファイルを引数として実行してください。
+  例)./a.out recipe_data.txt
+
+3. txtデータが表示されます。
